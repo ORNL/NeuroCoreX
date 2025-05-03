@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="15,855,023.200 ns"></ZoomStartTime>
-      <ZoomEndTime time="15,855,158.601 ns"></ZoomEndTime>
-      <Cursor1Time time="15,855,040.000 ns"></Cursor1Time>
+      <ZoomStartTime time="10,790.611 ns"></ZoomStartTime>
+      <ZoomEndTime time="11,041.878 ns"></ZoomEndTime>
+      <Cursor1Time time="11,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="233"></NameColumnWidth>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
       <ValueColumnWidth column_width="90"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="421" />
+   <WVObjectSize size="415" />
    <wvobject type="divider" fp_name="divider68">
       <obj_property name="label">STDP_AA_tpre_below</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -33,12 +33,12 @@
       <obj_property name="ObjectShortName">flag_trig_no_spike_counter</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost_dummy" type="array">
-      <obj_property name="ElementShortName">apost_dummy[0:19]</obj_property>
-      <obj_property name="ObjectShortName">apost_dummy[0:19]</obj_property>
+      <obj_property name="ElementShortName">apost_dummy[0:95]</obj_property>
+      <obj_property name="ObjectShortName">apost_dummy[0:95]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpost_dummy" type="array">
-      <obj_property name="ElementShortName">tpost_dummy[0:19][7:0]</obj_property>
-      <obj_property name="ObjectShortName">tpost_dummy[0:19][7:0]</obj_property>
+      <obj_property name="ElementShortName">tpost_dummy[0:95][7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpost_dummy[0:95][7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_multiple_spike_counter" type="logic">
       <obj_property name="ElementShortName">flag_multiple_spike_counter</obj_property>
@@ -113,8 +113,8 @@
       <obj_property name="ObjectShortName">update_done</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost" type="array">
-      <obj_property name="ElementShortName">apost[0:19]</obj_property>
-      <obj_property name="ObjectShortName">apost[0:19]</obj_property>
+      <obj_property name="ElementShortName">apost[0:95]</obj_property>
+      <obj_property name="ObjectShortName">apost[0:95]</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider679">
       <obj_property name="label">Weight_Update_AA</obj_property>
@@ -125,12 +125,12 @@
       <obj_property name="ObjectShortName">lat_read_data_prev[7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost_dummy" type="array">
-      <obj_property name="ElementShortName">apost_dummy[0:19]</obj_property>
-      <obj_property name="ObjectShortName">apost_dummy[0:19]</obj_property>
+      <obj_property name="ElementShortName">apost_dummy[0:95]</obj_property>
+      <obj_property name="ObjectShortName">apost_dummy[0:95]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpost_dummy" type="array">
-      <obj_property name="ElementShortName">tpost_dummy[0:19][7:0]</obj_property>
-      <obj_property name="ObjectShortName">tpost_dummy[0:19][7:0]</obj_property>
+      <obj_property name="ElementShortName">tpost_dummy[0:95][7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpost_dummy[0:95][7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
       <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
@@ -197,8 +197,8 @@
       <obj_property name="ObjectShortName">stdp_enable_read_addr_AA[15:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/updated_weights" type="array">
-      <obj_property name="ElementShortName">updated_weights[0:20]</obj_property>
-      <obj_property name="ObjectShortName">updated_weights[0:20]</obj_property>
+      <obj_property name="ElementShortName">updated_weights[0:96]</obj_property>
+      <obj_property name="ObjectShortName">updated_weights[0:96]</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider213">
       <obj_property name="label">STDP_FF_tpre_below</obj_property>
@@ -381,32 +381,32 @@
       <obj_property name="ObjectShortName">weight_FF_we</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/updated_weights_FF" type="array">
-      <obj_property name="ElementShortName">updated_weights_FF[0:20]</obj_property>
-      <obj_property name="ObjectShortName">updated_weights_FF[0:20]</obj_property>
+      <obj_property name="ElementShortName">updated_weights_FF[0:96]</obj_property>
+      <obj_property name="ObjectShortName">updated_weights_FF[0:96]</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider158">
       <obj_property name="label">THR_UPDATE</obj_property>
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vthr_in" type="array">
-      <obj_property name="ElementShortName">vthr_in[0:19][17:0]</obj_property>
-      <obj_property name="ObjectShortName">vthr_in[0:19][17:0]</obj_property>
+      <obj_property name="ElementShortName">vthr_in[0:95][17:0]</obj_property>
+      <obj_property name="ObjectShortName">vthr_in[0:95][17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
-      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
-      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
-      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
-      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/flag_FF" type="logic">
       <obj_property name="ElementShortName">flag_FF</obj_property>
@@ -529,16 +529,16 @@
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/T_ref_ctr" type="array">
-      <obj_property name="ElementShortName">T_ref_ctr[0:19][17:0]</obj_property>
-      <obj_property name="ObjectShortName">T_ref_ctr[0:19][17:0]</obj_property>
+      <obj_property name="ElementShortName">T_ref_ctr[0:95][17:0]</obj_property>
+      <obj_property name="ObjectShortName">T_ref_ctr[0:95][17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
-      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
-      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Syn_amp" type="array">
       <obj_property name="ElementShortName">Syn_amp[20:0]</obj_property>
@@ -577,12 +577,12 @@
       <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/spikes_L" type="array">
-      <obj_property name="ElementShortName">spikes_L[0:19][7:0]</obj_property>
-      <obj_property name="ObjectShortName">spikes_L[0:19][7:0]</obj_property>
+      <obj_property name="ElementShortName">spikes_L[0:95][7:0]</obj_property>
+      <obj_property name="ObjectShortName">spikes_L[0:95][7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/spikes_L_prev" type="array">
-      <obj_property name="ElementShortName">spikes_L_prev[0:19][7:0]</obj_property>
-      <obj_property name="ObjectShortName">spikes_L_prev[0:19][7:0]</obj_property>
+      <obj_property name="ElementShortName">spikes_L_prev[0:95][7:0]</obj_property>
+      <obj_property name="ObjectShortName">spikes_L_prev[0:95][7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/w_comb" type="array">
       <obj_property name="ElementShortName">w_comb[14:0]</obj_property>
@@ -677,8 +677,8 @@
       <obj_property name="ObjectShortName">fifo_v_din[17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Tref_max" type="array">
-      <obj_property name="ElementShortName">Tref_max[0:19][17:0]</obj_property>
-      <obj_property name="ObjectShortName">Tref_max[0:19][17:0]</obj_property>
+      <obj_property name="ElementShortName">Tref_max[0:95][17:0]</obj_property>
+      <obj_property name="ObjectShortName">Tref_max[0:95][17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_by_Tau_dt" type="array">
       <obj_property name="ElementShortName">Isyn_by_Tau_dt[17:0]</obj_property>
@@ -865,12 +865,12 @@
       <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
-      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
-      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider250">
       <obj_property name="label">FF_Neuron_Operation</obj_property>
@@ -905,12 +905,12 @@
       <obj_property name="ObjectShortName">Sin</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
-      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
-      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_FF_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_FF_by_Tau_dt" type="array">
       <obj_property name="ElementShortName">Isyn_FF_by_Tau_dt[17:0]</obj_property>
@@ -1051,30 +1051,6 @@
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/UART_TXD_I" type="array">
       <obj_property name="ElementShortName">UART_TXD_I[17:0]</obj_property>
       <obj_property name="ObjectShortName">UART_TXD_I[17:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/UART_TXD_V" type="array">
-      <obj_property name="ElementShortName">UART_TXD_V[17:0]</obj_property>
-      <obj_property name="ObjectShortName">UART_TXD_V[17:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/UART_TXD_I" type="array">
-      <obj_property name="ElementShortName">UART_TXD_I[17:0]</obj_property>
-      <obj_property name="ObjectShortName">UART_TXD_I[17:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/send_start" type="logic">
-      <obj_property name="ElementShortName">send_start</obj_property>
-      <obj_property name="ObjectShortName">send_start</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/send_ready" type="logic">
-      <obj_property name="ElementShortName">send_ready</obj_property>
-      <obj_property name="ObjectShortName">send_ready</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/v_copied" type="array">
-      <obj_property name="ElementShortName">v_copied[17:0]</obj_property>
-      <obj_property name="ObjectShortName">v_copied[17:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/I_copied" type="array">
-      <obj_property name="ElementShortName">I_copied[17:0]</obj_property>
-      <obj_property name="ObjectShortName">I_copied[17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_srst" type="logic">
       <obj_property name="ElementShortName">fifo_srst</obj_property>
@@ -1313,8 +1289,8 @@
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vthr_in" type="array">
-      <obj_property name="ElementShortName">vthr_in[0:19][17:0]</obj_property>
-      <obj_property name="ObjectShortName">vthr_in[0:19][17:0]</obj_property>
+      <obj_property name="ElementShortName">vthr_in[0:95][17:0]</obj_property>
+      <obj_property name="ObjectShortName">vthr_in[0:95][17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vin" type="array">
       <obj_property name="ElementShortName">PORT_vin[17:0]</obj_property>
@@ -1645,8 +1621,8 @@
       <obj_property name="ObjectShortName">fifo_rd_en_STDP</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_params" type="array">
-      <obj_property name="ElementShortName">stdp_params[0:19][17:0]</obj_property>
-      <obj_property name="ObjectShortName">stdp_params[0:19][17:0]</obj_property>
+      <obj_property name="ElementShortName">stdp_params[0:95][17:0]</obj_property>
+      <obj_property name="ObjectShortName">stdp_params[0:95][17:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/param_phase" type="other">
       <obj_property name="ElementShortName">param_phase</obj_property>
@@ -1693,12 +1669,12 @@
       <obj_property name="ObjectShortName">lat_bram_addr_read_W[15:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
-      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
-      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
-      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ElementShortName">weight_prev[0:95][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:95][14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/sout" type="logic">
       <obj_property name="ElementShortName">sout</obj_property>

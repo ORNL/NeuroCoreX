@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri May  2 19:19:33 2025
-# Process ID: 20312
+# Start of session at: Fri May  2 20:26:33 2025
+# Process ID: 5900
 # Current directory: C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1
 # Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
 # Log file: C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/main.vds
@@ -12,7 +12,7 @@
 # Running On: easternbrown, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 33982 MB
 #-----------------------------------------------------------
 source main.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 491.023 ; gain = 196.094
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 490.867 ; gain = 196.113
 Command: read_checkpoint -auto_incremental -incremental C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/utils_1/imports/synth_1/main.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/utils_1/imports/synth_1/main.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -25,13 +25,13 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 28228
+INFO: [Synth 8-7075] Helper process launched with PID 28708
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1319.797 ; gain = 413.340
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1318.289 ; gain = 410.656
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'main' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:22]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'inst_clk' of component 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:222]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'inst_clk' of component 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/clk_wiz_0_stub.vhdl:14]
 INFO: [Synth 8-3491] module 'LIF_unit' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:17' bound to instance 'LIF_unit_0' of component 'LIF_unit' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:228]
 INFO: [Synth 8-638] synthesizing module 'LIF_unit' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:55]
 INFO: [Synth 8-3491] module 'NEUROCORE_ENGINE' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:10' bound to instance 'Core_0' of component 'NEUROCORE_ENGINE' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:206]
@@ -55,12 +55,12 @@ INFO: [Synth 8-638] synthesizing module 'stdp_enable_ram' [C:/Users/4v5/Document
 INFO: [Synth 8-256] done synthesizing module 'stdp_enable_ram' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:16]
 INFO: [Synth 8-3491] module 'stdp_enable_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:5' bound to instance 'stdp_enable_ram_FF' of component 'stdp_enable_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:361]
 INFO: [Synth 8-256] done synthesizing module 'NEUROCORE_ENGINE' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:51]
-INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_v' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:452]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:20]
-INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:465]
-INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn_FF' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:478]
-INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:492]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_v' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:452]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_1_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:465]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn_FF' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:478]
+INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:492]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_2_stub.vhdl:20]
 INFO: [Synth 8-256] done synthesizing module 'LIF_unit' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:55]
 INFO: [Synth 8-3491] module 'triger_generator_uart' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd:5' bound to instance 'triger_generator_0' of component 'triger_generator_uart' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:263]
 INFO: [Synth 8-638] synthesizing module 'triger_generator_uart' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd:13]
@@ -76,9 +76,9 @@ INFO: [Synth 8-638] synthesizing module 'UART_RX_CTRL' [C:/Users/4v5/Documents/F
 INFO: [Synth 8-256] done synthesizing module 'UART_RX_CTRL' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd:32]
 INFO: [Synth 8-3491] module 'UART_RX_SORTER_Input' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:35' bound to instance 'Inst_UART_RX_SORTER_INPUT' of component 'UART_RX_SORTER_Input' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:300]
 INFO: [Synth 8-638] synthesizing module 'UART_RX_SORTER_Input' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:63]
-INFO: [Synth 8-3491] module 'fifo_generator_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_0_stub.vhdl:6' bound to instance 'Inst_FIFO_PC_FPGA' of component 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:534]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_0_stub.vhdl:22]
-INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:548]
+INFO: [Synth 8-3491] module 'fifo_generator_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_0_stub.vhdl:6' bound to instance 'Inst_FIFO_PC_FPGA' of component 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:534]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-5900-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:548]
 INFO: [Synth 8-256] done synthesizing module 'UART_RX_SORTER_Input' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:63]
 INFO: [Synth 8-3491] module 'Clock_Divider' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:6' bound to instance 'Inst_Clk_div' of component 'Clock_Divider' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:327]
 INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:14]
@@ -262,18 +262,18 @@ WARNING: [Synth 8-7129] Port UART_RXD_I[2] in module LIF_unit is either unconnec
 WARNING: [Synth 8-7129] Port UART_RXD_I[1] in module LIF_unit is either unconnected or has no load
 WARNING: [Synth 8-7129] Port UART_RXD_I[0] in module LIF_unit is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1606.762 ; gain = 699.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1606.762 ; gain = 699.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1606.762 ; gain = 699.129
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.283 . Memory (MB): peak = 1607.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.259 . Memory (MB): peak = 1606.762 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'Inst_Clk_div/BUFG_inst' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -301,23 +301,23 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1708.180 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1692.871 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   IBUFG => IBUF: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1708.180 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1692.871 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -332,7 +332,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for inst_clk. (constraint file  auto 
 Applied set_property KEEP_HIERARCHY = SOFT for LIF_unit_0/fifo_Spike_Tx. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_params_reg[2]' and it is trimmed from '18' to '16' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
 WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_params_reg[1]' and it is trimmed from '18' to '16' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
@@ -417,7 +417,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'txState_reg' using encodin
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'Weight_Tx_AA'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -556,7 +556,7 @@ INFO: [Synth 8-3971] The signal "main/FF_weight_ram/ram_reg" was recognized as a
 INFO: [Synth 8-3971] The signal "main/AA_weight_ram/ram_reg" was recognized as a true dual port RAM template.
 INFO: [Synth 8-5784] Optimized 1 bits of RAM "apre_ram_AA/ram_reg" due to constant propagation. Old ram width 2 bits, new ram width 1 bits.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -608,13 +608,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.180 ; gain = 801.723
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:29 . Memory (MB): peak = 1692.871 ; gain = 785.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:38 ; elapsed = 00:01:42 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:42 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -676,7 +676,7 @@ INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/apre_ram_FF/r
 INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/stdp_enable_ram_AA/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/stdp_enable_ram_FF/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Technology Mapping : Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -694,37 +694,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished IO Insertion : Time (s): cpu = 00:01:53 ; elapsed = 00:01:57 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:55 ; elapsed = 00:01:59 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:55 ; elapsed = 00:01:59 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:55 ; elapsed = 00:02:00 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:55 ; elapsed = 00:02:00 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -800,13 +800,13 @@ Report Cell Usage:
 |36    |OBUF                  |     1|
 +------+----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:55 ; elapsed = 00:02:00 . Memory (MB): peak = 1821.426 ; gain = 913.793
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:41 ; elapsed = 00:01:56 . Memory (MB): peak = 1823.219 ; gain = 815.781
-Synthesis Optimization Complete : Time (s): cpu = 00:01:57 ; elapsed = 00:02:02 . Memory (MB): peak = 1823.219 ; gain = 916.762
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:34 ; elapsed = 00:01:55 . Memory (MB): peak = 1821.426 ; gain = 827.684
+Synthesis Optimization Complete : Time (s): cpu = 00:01:55 ; elapsed = 00:02:00 . Memory (MB): peak = 1821.426 ; gain = 913.793
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.246 . Memory (MB): peak = 1823.219 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.226 . Memory (MB): peak = 1821.426 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1720 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'Inst_Clk_div/BUFG_inst' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -815,7 +815,7 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Inst_Clk_div/BUFG_inst 
 Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1823.219 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1821.426 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 48 instances were transformed.
   RAM32X1S => RAM32X1S (RAMS32): 18 instances
@@ -826,7 +826,7 @@ Synth Design complete | Checksum: 4080b6e0
 INFO: [Common 17-83] Releasing license: Synthesis
 138 Infos, 179 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:05 ; elapsed = 00:02:11 . Memory (MB): peak = 1823.219 ; gain = 1297.117
+synth_design: Time (s): cpu = 00:02:05 ; elapsed = 00:02:12 . Memory (MB): peak = 1821.426 ; gain = 1296.367
 INFO: [Common 17-1381] The checkpoint 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/main.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May  2 19:21:58 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri May  2 20:29:01 2025...

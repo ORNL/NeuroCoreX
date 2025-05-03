@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Fri May  2 19:25:45 2025
+| Date         : Fri May  2 20:32:38 2025
 | Host         : easternbrown running 64-bit major release  (build 9200)
 | Command      : report_drc -file main_drc_routed.rpt -pb main_drc_routed.pb -rpx main_drc_routed.rpx
 | Design       : main
@@ -174,7 +174,6 @@ Inst_UART_RX_SORTER_INPUT/Inst_FIFO_PC_FPGA/U0/inst_fifo_gen/gconvfifo.rf/grf.rf
 Inst_UART_RX_SORTER_INPUT/Inst_FIFO_PC_FPGA/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb,
 Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb,
 Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i,
-LIF_unit_0/fifo_Isyn/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i,
 LIF_unit_0/fifo_Isyn/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb,
 LIF_unit_0/fifo_Isyn/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i,
 LIF_unit_0/fifo_Isyn_FF/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i,
@@ -182,6 +181,7 @@ LIF_unit_0/fifo_Isyn_FF/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.g
 LIF_unit_0/fifo_Isyn_FF/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i,
 LIF_unit_0/fifo_Spike_Tx/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb,
 LIF_unit_0/fifo_Spike_Tx/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i,
+LIF_unit_0/fifo_v/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i,
 LIF_unit_0/fifo_v/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb,
 LIF_unit_0/fifo_v/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i
  (the first 15 of 22 listed nets/buses).
