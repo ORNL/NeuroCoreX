@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/constrs_1/new/CMod_A7_master.xdc rfile:../../../AG_NCX.srcs/constrs_1/new/CMod_A7_master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN L17 IOSTANDARD LVCMOS33} [get_ports CLK]
+set_property src_info {type:XDC file:1 line:101 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J18 IOSTANDARD LVCMOS33} [get_ports UART_TXD]
+set_property src_info {type:XDC file:1 line:102 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J17 IOSTANDARD LVCMOS33} [get_ports UART_RXD]

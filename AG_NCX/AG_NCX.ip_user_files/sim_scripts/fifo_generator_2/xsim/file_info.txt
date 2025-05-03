@@ -1,0 +1,2 @@
+fifo_generator_2_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

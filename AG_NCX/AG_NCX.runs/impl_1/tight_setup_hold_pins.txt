@@ -1,0 +1,14 @@
++====================+======================+===============================================+
+| Launch Setup Clock | Launch Hold Clock    | Pin                                           |
++====================+======================+===============================================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[5]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/apost_dummy_reg[74]/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[13]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[9]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[11]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[4]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[6]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[7]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/apost_dummy_reg[27]/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0_1 | LIF_unit_0/Core_0/tpre_read_addr_FF_reg[12]/D |
++--------------------+----------------------+-----------------------------------------------+

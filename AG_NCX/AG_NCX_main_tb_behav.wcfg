@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="15,855,023.200 ns"></ZoomStartTime>
+      <ZoomEndTime time="15,855,158.601 ns"></ZoomEndTime>
+      <Cursor1Time time="15,855,040.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="233"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="421" />
+   <wvobject type="divider" fp_name="divider68">
+      <obj_property name="label">STDP_AA_tpre_below</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_trig_no_spike_counter" type="logic">
+      <obj_property name="ElementShortName">flag_trig_no_spike_counter</obj_property>
+      <obj_property name="ObjectShortName">flag_trig_no_spike_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost_dummy" type="array">
+      <obj_property name="ElementShortName">apost_dummy[0:19]</obj_property>
+      <obj_property name="ObjectShortName">apost_dummy[0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpost_dummy" type="array">
+      <obj_property name="ElementShortName">tpost_dummy[0:19][7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpost_dummy[0:19][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_multiple_spike_counter" type="logic">
+      <obj_property name="ElementShortName">flag_multiple_spike_counter</obj_property>
+      <obj_property name="ObjectShortName">flag_multiple_spike_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_missed_tpre_increment" type="logic">
+      <obj_property name="ElementShortName">flag_missed_tpre_increment</obj_property>
+      <obj_property name="ObjectShortName">flag_missed_tpre_increment</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_read_addr_int" type="other">
+      <obj_property name="ElementShortName">tpre_read_addr_int</obj_property>
+      <obj_property name="ObjectShortName">tpre_read_addr_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_read_addr" type="array">
+      <obj_property name="ElementShortName">tpre_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_read_data" type="array">
+      <obj_property name="ElementShortName">tpre_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_write_addr" type="array">
+      <obj_property name="ElementShortName">tpre_write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_write_data" type="array">
+      <obj_property name="ElementShortName">tpre_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_we" type="logic">
+      <obj_property name="ElementShortName">tpre_we</obj_property>
+      <obj_property name="ObjectShortName">tpre_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_update_index" type="other">
+      <obj_property name="ElementShortName">tpre_update_index</obj_property>
+      <obj_property name="ObjectShortName">tpre_update_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_write_data" type="array">
+      <obj_property name="ElementShortName">apre_write_data[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_write_data[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_addr" type="array">
+      <obj_property name="ElementShortName">apre_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_data" type="array">
+      <obj_property name="ElementShortName">apre_read_data[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_data[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/en_tpre_update" type="logic">
+      <obj_property name="ElementShortName">en_tpre_update</obj_property>
+      <obj_property name="ObjectShortName">en_tpre_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/en_tpre_update_prev" type="logic">
+      <obj_property name="ElementShortName">en_tpre_update_prev</obj_property>
+      <obj_property name="ObjectShortName">en_tpre_update_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/update_active" type="logic">
+      <obj_property name="ElementShortName">update_active</obj_property>
+      <obj_property name="ObjectShortName">update_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/update_done" type="logic">
+      <obj_property name="ElementShortName">update_done</obj_property>
+      <obj_property name="ObjectShortName">update_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost" type="array">
+      <obj_property name="ElementShortName">apost[0:19]</obj_property>
+      <obj_property name="ObjectShortName">apost[0:19]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider679">
+      <obj_property name="label">Weight_Update_AA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_read_data_prev" type="array">
+      <obj_property name="ElementShortName">lat_read_data_prev[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_read_data_prev[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost_dummy" type="array">
+      <obj_property name="ElementShortName">apost_dummy[0:19]</obj_property>
+      <obj_property name="ObjectShortName">apost_dummy[0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpost_dummy" type="array">
+      <obj_property name="ElementShortName">tpost_dummy[0:19][7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpost_dummy[0:19][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_update_index" type="other">
+      <obj_property name="ElementShortName">lat_update_index</obj_property>
+      <obj_property name="ObjectShortName">lat_update_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_update_done" type="logic">
+      <obj_property name="ElementShortName">lat_update_done</obj_property>
+      <obj_property name="ObjectShortName">lat_update_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_read_addr" type="array">
+      <obj_property name="ElementShortName">lat_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_read_addr_int" type="other">
+      <obj_property name="ElementShortName">lat_read_addr_int</obj_property>
+      <obj_property name="ObjectShortName">lat_read_addr_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_read_data" type="array">
+      <obj_property name="ElementShortName">lat_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_update_active" type="logic">
+      <obj_property name="ElementShortName">lat_update_active</obj_property>
+      <obj_property name="ObjectShortName">lat_update_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_addr" type="array">
+      <obj_property name="ElementShortName">apre_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_data" type="array">
+      <obj_property name="ElementShortName">apre_read_data[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_data[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/toggle_write" type="logic">
+      <obj_property name="ElementShortName">toggle_write</obj_property>
+      <obj_property name="ObjectShortName">toggle_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_AA_write_addr" type="array">
+      <obj_property name="ElementShortName">weight_AA_write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_AA_write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_AA_data_in" type="array">
+      <obj_property name="ElementShortName">weight_AA_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_AA_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_AA_we" type="logic">
+      <obj_property name="ElementShortName">weight_AA_we</obj_property>
+      <obj_property name="ObjectShortName">weight_AA_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_read_data_AA" type="logic">
+      <obj_property name="ElementShortName">stdp_enable_read_data_AA</obj_property>
+      <obj_property name="ObjectShortName">stdp_enable_read_data_AA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_read_addr_AA" type="array">
+      <obj_property name="ElementShortName">stdp_enable_read_addr_AA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stdp_enable_read_addr_AA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/updated_weights" type="array">
+      <obj_property name="ElementShortName">updated_weights[0:20]</obj_property>
+      <obj_property name="ObjectShortName">updated_weights[0:20]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider213">
+      <obj_property name="label">STDP_FF_tpre_below</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_read_addr_FF" type="array">
+      <obj_property name="ElementShortName">tpre_read_addr_FF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_read_addr_FF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_write_addr_FF" type="array">
+      <obj_property name="ElementShortName">tpre_write_addr_FF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_write_addr_FF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_read_data_FF" type="array">
+      <obj_property name="ElementShortName">tpre_read_data_FF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_read_data_FF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_write_data_FF" type="array">
+      <obj_property name="ElementShortName">tpre_write_data_FF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_write_data_FF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_write_data_FF" type="array">
+      <obj_property name="ElementShortName">apre_write_data_FF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_write_data_FF[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_we_FF" type="logic">
+      <obj_property name="ElementShortName">apre_we_FF</obj_property>
+      <obj_property name="ObjectShortName">apre_we_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_we_FF" type="logic">
+      <obj_property name="ElementShortName">tpre_we_FF</obj_property>
+      <obj_property name="ObjectShortName">tpre_we_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/skip_flag" type="logic">
+      <obj_property name="ElementShortName">skip_flag</obj_property>
+      <obj_property name="ObjectShortName">skip_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/counter_skip_flag" type="array">
+      <obj_property name="ElementShortName">counter_skip_flag[9:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_skip_flag[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_update_index_FF" type="other">
+      <obj_property name="ElementShortName">tpre_update_index_FF</obj_property>
+      <obj_property name="ObjectShortName">tpre_update_index_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/en_tpre_update_FF" type="logic">
+      <obj_property name="ElementShortName">en_tpre_update_FF</obj_property>
+      <obj_property name="ObjectShortName">en_tpre_update_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/en_tpre_update_prev_FF" type="logic">
+      <obj_property name="ElementShortName">en_tpre_update_prev_FF</obj_property>
+      <obj_property name="ObjectShortName">en_tpre_update_prev_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_addr_FF" type="array">
+      <obj_property name="ElementShortName">apre_read_addr_FF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_addr_FF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_data_FF" type="array">
+      <obj_property name="ElementShortName">apre_read_data_FF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_data_FF[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/port_spike_in_prev" type="logic">
+      <obj_property name="ElementShortName">port_spike_in_prev</obj_property>
+      <obj_property name="ObjectShortName">port_spike_in_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_trig_counter_FF" type="logic">
+      <obj_property name="ElementShortName">flag_trig_counter_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_trig_counter_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_multiple_spike_counter_FF" type="logic">
+      <obj_property name="ElementShortName">flag_multiple_spike_counter_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_multiple_spike_counter_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_trig_no_spike_counter_FF" type="logic">
+      <obj_property name="ElementShortName">flag_trig_no_spike_counter_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_trig_no_spike_counter_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/update_active_FF" type="logic">
+      <obj_property name="ElementShortName">update_active_FF</obj_property>
+      <obj_property name="ObjectShortName">update_active_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/update_done_FF" type="logic">
+      <obj_property name="ElementShortName">update_done_FF</obj_property>
+      <obj_property name="ObjectShortName">update_done_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_weight_loader" type="array">
+      <obj_property name="ElementShortName">NA_weight_loader[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NA_weight_loader[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA" type="other">
+      <obj_property name="ElementShortName">NA</obj_property>
+      <obj_property name="ObjectShortName">NA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_missed_tpre_increment_FF" type="logic">
+      <obj_property name="ElementShortName">flag_missed_tpre_increment_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_missed_tpre_increment_FF</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1919">
+      <obj_property name="label">Weight_update_FF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_update_active" type="logic">
+      <obj_property name="ElementShortName">FF_update_active</obj_property>
+      <obj_property name="ObjectShortName">FF_update_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_update_done" type="logic">
+      <obj_property name="ElementShortName">FF_update_done</obj_property>
+      <obj_property name="ObjectShortName">FF_update_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_update_index" type="other">
+      <obj_property name="ElementShortName">FF_update_index</obj_property>
+      <obj_property name="ObjectShortName">FF_update_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/toggle_write_FF" type="logic">
+      <obj_property name="ElementShortName">toggle_write_FF</obj_property>
+      <obj_property name="ObjectShortName">toggle_write_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_read_addr" type="array">
+      <obj_property name="ElementShortName">FF_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FF_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_read_data" type="array">
+      <obj_property name="ElementShortName">FF_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FF_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_addr_FF" type="array">
+      <obj_property name="ElementShortName">apre_read_addr_FF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_addr_FF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apost_read_data_FF" type="logic">
+      <obj_property name="ElementShortName">apost_read_data_FF</obj_property>
+      <obj_property name="ObjectShortName">apost_read_data_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/apre_read_data_FF" type="array">
+      <obj_property name="ElementShortName">apre_read_data_FF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">apre_read_data_FF[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_write_addr" type="array">
+      <obj_property name="ElementShortName">weight_FF_write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_data_in" type="array">
+      <obj_property name="ElementShortName">weight_FF_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_we" type="logic">
+      <obj_property name="ElementShortName">weight_FF_we</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/updated_weights_FF" type="array">
+      <obj_property name="ElementShortName">updated_weights_FF[0:20]</obj_property>
+      <obj_property name="ObjectShortName">updated_weights_FF[0:20]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider158">
+      <obj_property name="label">THR_UPDATE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vthr_in" type="array">
+      <obj_property name="ElementShortName">vthr_in[0:19][17:0]</obj_property>
+      <obj_property name="ObjectShortName">vthr_in[0:19][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
+      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
+      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
+      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
+      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_FF" type="logic">
+      <obj_property name="ElementShortName">flag_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_AA" type="logic">
+      <obj_property name="ElementShortName">flag_AA</obj_property>
+      <obj_property name="ObjectShortName">flag_AA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_THR" type="logic">
+      <obj_property name="ElementShortName">flag_THR</obj_property>
+      <obj_property name="ObjectShortName">flag_THR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_NI_ST" type="logic">
+      <obj_property name="ElementShortName">flag_NI_ST</obj_property>
+      <obj_property name="ObjectShortName">flag_NI_ST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_READ" type="logic">
+      <obj_property name="ElementShortName">flag_READ</obj_property>
+      <obj_property name="ObjectShortName">flag_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_NI_ST" type="logic">
+      <obj_property name="ElementShortName">flag_NI_ST</obj_property>
+      <obj_property name="ObjectShortName">flag_NI_ST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_READ" type="logic">
+      <obj_property name="ElementShortName">flag_READ</obj_property>
+      <obj_property name="ObjectShortName">flag_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/loader_status" type="other">
+      <obj_property name="ElementShortName">loader_status</obj_property>
+      <obj_property name="ObjectShortName">loader_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_EN" type="logic">
+      <obj_property name="ElementShortName">READ_EN</obj_property>
+      <obj_property name="ObjectShortName">READ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_wait" type="logic">
+      <obj_property name="ElementShortName">flag_wait</obj_property>
+      <obj_property name="ObjectShortName">flag_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/EN_LOAD_AA_W" type="logic">
+      <obj_property name="ElementShortName">EN_LOAD_AA_W</obj_property>
+      <obj_property name="ObjectShortName">EN_LOAD_AA_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_WEIGHT_AA" type="logic">
+      <obj_property name="ElementShortName">READ_WEIGHT_AA</obj_property>
+      <obj_property name="ObjectShortName">READ_WEIGHT_AA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/WEIGHT_AA" type="array">
+      <obj_property name="ElementShortName">WEIGHT_AA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WEIGHT_AA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/EN_LOAD_FF_W" type="logic">
+      <obj_property name="ElementShortName">EN_LOAD_FF_W</obj_property>
+      <obj_property name="ObjectShortName">EN_LOAD_FF_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/WEIGHT_FF" type="array">
+      <obj_property name="ElementShortName">WEIGHT_FF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WEIGHT_FF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/WRITE_EN_INPUT" type="logic">
+      <obj_property name="ElementShortName">WRITE_EN_INPUT</obj_property>
+      <obj_property name="ObjectShortName">WRITE_EN_INPUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/DATA_OUT_SPIKE_ADDRESS" type="array">
+      <obj_property name="ElementShortName">DATA_OUT_SPIKE_ADDRESS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT_SPIKE_ADDRESS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/RESET_TRIGER" type="logic">
+      <obj_property name="ElementShortName">RESET_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">RESET_TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/patternState_THR" type="other">
+      <obj_property name="ElementShortName">patternState_THR</obj_property>
+      <obj_property name="ObjectShortName">patternState_THR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_almost_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/ctr" type="array">
+      <obj_property name="ElementShortName">ctr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">ctr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uart_txd" type="logic">
+      <obj_property name="ElementShortName">uart_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_EN" type="logic">
+      <obj_property name="ElementShortName">READ_EN</obj_property>
+      <obj_property name="ObjectShortName">READ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/fixed_point_constant_vin" type="array">
+      <obj_property name="ElementShortName">fixed_point_constant_vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_point_constant_vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/emu" type="logic">
+      <obj_property name="ElementShortName">emu</obj_property>
+      <obj_property name="ObjectShortName">emu</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider52">
+      <obj_property name="label">Neuron_Calculation_below</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/T_ref_ctr" type="array">
+      <obj_property name="ElementShortName">T_ref_ctr[0:19][17:0]</obj_property>
+      <obj_property name="ObjectShortName">T_ref_ctr[0:19][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
+      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
+      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Syn_amp" type="array">
+      <obj_property name="ElementShortName">Syn_amp[20:0]</obj_property>
+      <obj_property name="ObjectShortName">Syn_amp[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Syn_amp_FF" type="array">
+      <obj_property name="ElementShortName">Syn_amp_FF[20:0]</obj_property>
+      <obj_property name="ObjectShortName">Syn_amp_FF[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/mul_result" type="array">
+      <obj_property name="ElementShortName">mul_result[35:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_result[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/mul_result_2" type="array">
+      <obj_property name="ElementShortName">mul_result_2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_result_2[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_out" type="array">
+      <obj_property name="ElementShortName">Isyn_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_out[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/V_by_Tau_dt" type="array">
+      <obj_property name="ElementShortName">V_by_Tau_dt[17:0]</obj_property>
+      <obj_property name="ObjectShortName">V_by_Tau_dt[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/V_by_Tau_dt_int" type="other">
+      <obj_property name="ElementShortName">V_by_Tau_dt_int</obj_property>
+      <obj_property name="ObjectShortName">V_by_Tau_dt_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/spikes_L" type="array">
+      <obj_property name="ElementShortName">spikes_L[0:19][7:0]</obj_property>
+      <obj_property name="ObjectShortName">spikes_L[0:19][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/spikes_L_prev" type="array">
+      <obj_property name="ElementShortName">spikes_L_prev[0:19][7:0]</obj_property>
+      <obj_property name="ObjectShortName">spikes_L_prev[0:19][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/w_comb" type="array">
+      <obj_property name="ElementShortName">w_comb[14:0]</obj_property>
+      <obj_property name="ObjectShortName">w_comb[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/counter0" type="array">
+      <obj_property name="ElementShortName">counter0[14:0]</obj_property>
+      <obj_property name="ObjectShortName">counter0[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_internal_1st" type="array">
+      <obj_property name="ElementShortName">Sin_internal_1st[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Sin_internal_1st[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_internal_2nd" type="array">
+      <obj_property name="ElementShortName">Sin_internal_2nd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Sin_internal_2nd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_internal" type="array">
+      <obj_property name="ElementShortName">Sin_internal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Sin_internal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Isyn_in" type="array">
+      <obj_property name="ElementShortName">PORT_Isyn_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Isyn_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_in" type="array">
+      <obj_property name="ElementShortName">Isyn_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_out" type="array">
+      <obj_property name="ElementShortName">Isyn_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_out[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Isyn_out" type="array">
+      <obj_property name="ElementShortName">PORT_Isyn_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Isyn_out[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vout" type="array">
+      <obj_property name="ElementShortName">PORT_vout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_check" type="logic">
+      <obj_property name="ElementShortName">flag_check</obj_property>
+      <obj_property name="ObjectShortName">flag_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_dout" type="array">
+      <obj_property name="ElementShortName">fifo_v_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vin" type="array">
+      <obj_property name="ElementShortName">PORT_vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Iin" type="array">
+      <obj_property name="ElementShortName">PORT_Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin" type="array">
+      <obj_property name="ElementShortName">vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Iin" type="array">
+      <obj_property name="ElementShortName">Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin_2nd" type="array">
+      <obj_property name="ElementShortName">vin_2nd[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin_2nd[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vout" type="array">
+      <obj_property name="ElementShortName">PORT_vout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_din" type="array">
+      <obj_property name="ElementShortName">fifo_v_din[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_din[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Tref_max" type="array">
+      <obj_property name="ElementShortName">Tref_max[0:19][17:0]</obj_property>
+      <obj_property name="ObjectShortName">Tref_max[0:19][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_by_Tau_dt" type="array">
+      <obj_property name="ElementShortName">Isyn_by_Tau_dt[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_by_Tau_dt[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/temp_result_Isyn_FF" type="array">
+      <obj_property name="ElementShortName">temp_result_Isyn_FF[35:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_result_Isyn_FF[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/EN_READ_AA_W" type="logic">
+      <obj_property name="ElementShortName">EN_READ_AA_W</obj_property>
+      <obj_property name="ObjectShortName">EN_READ_AA_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/WEIGHT_AA_TX" type="array">
+      <obj_property name="ElementShortName">WEIGHT_AA_TX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WEIGHT_AA_TX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_AA_data_in" type="array">
+      <obj_property name="ElementShortName">weight_AA_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_AA_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_AA_write_addr" type="array">
+      <obj_property name="ElementShortName">weight_AA_write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_AA_write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/loader_status" type="other">
+      <obj_property name="ElementShortName">loader_status</obj_property>
+      <obj_property name="ObjectShortName">loader_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_WEIGHT_FF" type="array">
+      <obj_property name="ElementShortName">BYTE_WEIGHT_FF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_WEIGHT_FF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_WEIGHT_AA" type="array">
+      <obj_property name="ElementShortName">BYTE_WEIGHT_AA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_WEIGHT_AA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_debug_int" type="other">
+      <obj_property name="ElementShortName">N_debug_int</obj_property>
+      <obj_property name="ObjectShortName">N_debug_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/WEIGHT_AA" type="array">
+      <obj_property name="ElementShortName">WEIGHT_AA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WEIGHT_AA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_debug" type="array">
+      <obj_property name="ElementShortName">N_debug[7:0]</obj_property>
+      <obj_property name="ObjectShortName">N_debug[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_EN" type="logic">
+      <obj_property name="ElementShortName">READ_EN</obj_property>
+      <obj_property name="ObjectShortName">READ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/EN_LOAD_AA_W" type="logic">
+      <obj_property name="ElementShortName">EN_LOAD_AA_W</obj_property>
+      <obj_property name="ObjectShortName">EN_LOAD_AA_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/counter_FF_count" type="array">
+      <obj_property name="ElementShortName">counter_FF_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_FF_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/counter_AA_count" type="array">
+      <obj_property name="ElementShortName">counter_AA_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_AA_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/counter_FF_max_count" type="array">
+      <obj_property name="ElementShortName">counter_FF_max_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_FF_max_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/counter_AA_max_count" type="array">
+      <obj_property name="ElementShortName">counter_AA_max_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_AA_max_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1058">
+      <obj_property name="label">Neuron_FF_run</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_NI_ST" type="logic">
+      <obj_property name="ElementShortName">flag_NI_ST</obj_property>
+      <obj_property name="ObjectShortName">flag_NI_ST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_FF" type="logic">
+      <obj_property name="ElementShortName">flag_FF</obj_property>
+      <obj_property name="ObjectShortName">flag_FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_AA" type="logic">
+      <obj_property name="ElementShortName">flag_AA</obj_property>
+      <obj_property name="ObjectShortName">flag_AA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/loader_status" type="other">
+      <obj_property name="ElementShortName">loader_status</obj_property>
+      <obj_property name="ObjectShortName">loader_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/sorter_state" type="array">
+      <obj_property name="ElementShortName">sorter_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sorter_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_write_addr" type="array">
+      <obj_property name="ElementShortName">weight_FF_write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_data_in" type="array">
+      <obj_property name="ElementShortName">weight_FF_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_we" type="logic">
+      <obj_property name="ElementShortName">weight_FF_we</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/clk_delayed" type="logic">
+      <obj_property name="ElementShortName">clk_delayed</obj_property>
+      <obj_property name="ObjectShortName">clk_delayed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/en_Input" type="logic">
+      <obj_property name="ElementShortName">en_Input</obj_property>
+      <obj_property name="ObjectShortName">en_Input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA" type="other">
+      <obj_property name="ElementShortName">NA</obj_property>
+      <obj_property name="ObjectShortName">NA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/bram_addr" type="array">
+      <obj_property name="ElementShortName">bram_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/bram_data" type="array">
+      <obj_property name="ElementShortName">bram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_read_addr" type="array">
+      <obj_property name="ElementShortName">FF_read_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FF_read_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/FF_read_data" type="array">
+      <obj_property name="ElementShortName">FF_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FF_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/accumulation_done" type="logic">
+      <obj_property name="ElementShortName">accumulation_done</obj_property>
+      <obj_property name="ObjectShortName">accumulation_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/acc_index" type="other">
+      <obj_property name="ElementShortName">acc_index</obj_property>
+      <obj_property name="ObjectShortName">acc_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
+      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
+      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider250">
+      <obj_property name="label">FF_Neuron_Operation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_latch" type="logic">
+      <obj_property name="ElementShortName">Sin_latch</obj_property>
+      <obj_property name="ObjectShortName">Sin_latch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_prev" type="logic">
+      <obj_property name="ElementShortName">Sin_prev</obj_property>
+      <obj_property name="ObjectShortName">Sin_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_1st" type="logic">
+      <obj_property name="ElementShortName">Sin_1st</obj_property>
+      <obj_property name="ObjectShortName">Sin_1st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin_2nd" type="logic">
+      <obj_property name="ElementShortName">Sin_2nd</obj_property>
+      <obj_property name="ObjectShortName">Sin_2nd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Sin" type="logic">
+      <obj_property name="ElementShortName">Sin</obj_property>
+      <obj_property name="ObjectShortName">Sin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF" type="array">
+      <obj_property name="ElementShortName">weight_FF[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_FF_prev" type="array">
+      <obj_property name="ElementShortName">weight_FF_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_FF_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_FF_by_Tau_dt" type="array">
+      <obj_property name="ElementShortName">Isyn_FF_by_Tau_dt[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_FF_by_Tau_dt[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/sorter_state" type="array">
+      <obj_property name="ElementShortName">sorter_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sorter_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Syn_amp_FF" type="array">
+      <obj_property name="ElementShortName">Syn_amp_FF[20:0]</obj_property>
+      <obj_property name="ObjectShortName">Syn_amp_FF[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/w_comb_FF" type="array">
+      <obj_property name="ElementShortName">w_comb_FF[14:0]</obj_property>
+      <obj_property name="ObjectShortName">w_comb_FF[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Isyn_dout_FF" type="array">
+      <obj_property name="ElementShortName">fifo_Isyn_dout_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Isyn_dout_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Isyn_in_FF" type="array">
+      <obj_property name="ElementShortName">PORT_Isyn_in_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Isyn_in_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_in_FF" type="array">
+      <obj_property name="ElementShortName">Isyn_in_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_in_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/mul_result_FF" type="array">
+      <obj_property name="ElementShortName">mul_result_FF[35:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_result_FF[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/mul_result_2_FF" type="array">
+      <obj_property name="ElementShortName">mul_result_2_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_result_2_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Isyn_out_FF" type="array">
+      <obj_property name="ElementShortName">Isyn_out_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isyn_out_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Isyn_out_FF" type="array">
+      <obj_property name="ElementShortName">PORT_Isyn_out_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Isyn_out_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Isyn_din_FF" type="array">
+      <obj_property name="ElementShortName">fifo_Isyn_din_FF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Isyn_din_FF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/ACT_TRIGER" type="logic">
+      <obj_property name="ElementShortName">ACT_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">ACT_TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/loader_status" type="other">
+      <obj_property name="ElementShortName">loader_status</obj_property>
+      <obj_property name="ObjectShortName">loader_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/counter0" type="array">
+      <obj_property name="ElementShortName">counter0[14:0]</obj_property>
+      <obj_property name="ObjectShortName">counter0[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_dout" type="array">
+      <obj_property name="ElementShortName">fifo_v_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vin" type="array">
+      <obj_property name="ElementShortName">PORT_vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Iin" type="array">
+      <obj_property name="ElementShortName">PORT_Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Iin" type="array">
+      <obj_property name="ElementShortName">Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin_2nd" type="array">
+      <obj_property name="ElementShortName">vin_2nd[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin_2nd[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vout" type="array">
+      <obj_property name="ElementShortName">PORT_vout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_din" type="array">
+      <obj_property name="ElementShortName">fifo_v_din[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_din[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_dout" type="array">
+      <obj_property name="ElementShortName">fifo_v_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin" type="array">
+      <obj_property name="ElementShortName">vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Iin" type="array">
+      <obj_property name="ElementShortName">Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/UART_TXD_V" type="array">
+      <obj_property name="ElementShortName">UART_TXD_V[17:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_V[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/UART_TXD_I" type="array">
+      <obj_property name="ElementShortName">UART_TXD_I[17:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_I[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/UART_TXD_V" type="array">
+      <obj_property name="ElementShortName">UART_TXD_V[17:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_V[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/UART_TXD_I" type="array">
+      <obj_property name="ElementShortName">UART_TXD_I[17:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_I[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/send_start" type="logic">
+      <obj_property name="ElementShortName">send_start</obj_property>
+      <obj_property name="ObjectShortName">send_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/send_ready" type="logic">
+      <obj_property name="ElementShortName">send_ready</obj_property>
+      <obj_property name="ObjectShortName">send_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/v_copied" type="array">
+      <obj_property name="ElementShortName">v_copied[17:0]</obj_property>
+      <obj_property name="ObjectShortName">v_copied[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/v_transmitter_0/I_copied" type="array">
+      <obj_property name="ElementShortName">I_copied[17:0]</obj_property>
+      <obj_property name="ObjectShortName">I_copied[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_srst" type="logic">
+      <obj_property name="ElementShortName">fifo_srst</obj_property>
+      <obj_property name="ObjectShortName">fifo_srst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_DEBUG_IN" type="array">
+      <obj_property name="ElementShortName">N_DEBUG_IN[17:0]</obj_property>
+      <obj_property name="ObjectShortName">N_DEBUG_IN[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/EN_LOAD_N_DEBUG" type="logic">
+      <obj_property name="ElementShortName">EN_LOAD_N_DEBUG</obj_property>
+      <obj_property name="ObjectShortName">EN_LOAD_N_DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_debug" type="array">
+      <obj_property name="ElementShortName">N_debug[7:0]</obj_property>
+      <obj_property name="ObjectShortName">N_debug[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_debug_int" type="other">
+      <obj_property name="ElementShortName">N_debug_int</obj_property>
+      <obj_property name="ObjectShortName">N_debug_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/DEBUG_PARAMS" type="array">
+      <obj_property name="ElementShortName">DEBUG_PARAMS[0:2][17:0]</obj_property>
+      <obj_property name="ObjectShortName">DEBUG_PARAMS[0:2][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/en_DEBUG" type="logic">
+      <obj_property name="ElementShortName">en_DEBUG</obj_property>
+      <obj_property name="ObjectShortName">en_DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/WRITE_EN_DEBUG" type="logic">
+      <obj_property name="ElementShortName">WRITE_EN_DEBUG</obj_property>
+      <obj_property name="ObjectShortName">WRITE_EN_DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_DEBUG" type="logic">
+      <obj_property name="ElementShortName">flag_DEBUG</obj_property>
+      <obj_property name="ObjectShortName">flag_DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Isyn_din" type="array">
+      <obj_property name="ElementShortName">fifo_Isyn_din[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Isyn_din[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Isyn_dout" type="array">
+      <obj_property name="ElementShortName">fifo_Isyn_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Isyn_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider409">
+      <obj_property name="label">UART_RX_SORTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_TIME_DIFF" type="array">
+      <obj_property name="ElementShortName">BYTE_TIME_DIFF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_TIME_DIFF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_NEURON_ADDR_BYTE_0" type="array">
+      <obj_property name="ElementShortName">BYTE_NEURON_ADDR_BYTE_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_NEURON_ADDR_BYTE_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_NEURON_ADDR_BYTE_1" type="array">
+      <obj_property name="ElementShortName">BYTE_NEURON_ADDR_BYTE_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_NEURON_ADDR_BYTE_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_EN" type="logic">
+      <obj_property name="ElementShortName">READ_EN</obj_property>
+      <obj_property name="ObjectShortName">READ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/trigger_RESET" type="logic">
+      <obj_property name="ElementShortName">trigger_RESET</obj_property>
+      <obj_property name="ObjectShortName">trigger_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/adrs_flag" type="logic">
+      <obj_property name="ElementShortName">adrs_flag</obj_property>
+      <obj_property name="ObjectShortName">adrs_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/update_time_flag" type="logic">
+      <obj_property name="ElementShortName">update_time_flag</obj_property>
+      <obj_property name="ObjectShortName">update_time_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/patternState" type="other">
+      <obj_property name="ElementShortName">patternState</obj_property>
+      <obj_property name="ObjectShortName">patternState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_full" type="logic">
+      <obj_property name="ElementShortName">FIFO_full</obj_property>
+      <obj_property name="ObjectShortName">FIFO_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_almost_full" type="logic">
+      <obj_property name="ElementShortName">FIFO_almost_full</obj_property>
+      <obj_property name="ObjectShortName">FIFO_almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_reset" type="logic">
+      <obj_property name="ElementShortName">FIFO_reset</obj_property>
+      <obj_property name="ObjectShortName">FIFO_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/flag_read_fifo" type="logic">
+      <obj_property name="ElementShortName">flag_read_fifo</obj_property>
+      <obj_property name="ObjectShortName">flag_read_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/emu" type="logic">
+      <obj_property name="ElementShortName">emu</obj_property>
+      <obj_property name="ObjectShortName">emu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_wr_en" type="logic">
+      <obj_property name="ElementShortName">FIFO_wr_en</obj_property>
+      <obj_property name="ObjectShortName">FIFO_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_rd_en" type="logic">
+      <obj_property name="ElementShortName">FIFO_rd_en</obj_property>
+      <obj_property name="ObjectShortName">FIFO_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_almost_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/emulation_ON" type="logic">
+      <obj_property name="ElementShortName">emulation_ON</obj_property>
+      <obj_property name="ObjectShortName">emulation_ON</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/trig_triger" type="logic">
+      <obj_property name="ElementShortName">trig_triger</obj_property>
+      <obj_property name="ObjectShortName">trig_triger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Counter_trigger" type="array">
+      <obj_property name="ElementShortName">Counter_trigger[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Counter_trigger[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Counter_trigger_prev" type="array">
+      <obj_property name="ElementShortName">Counter_trigger_prev[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Counter_trigger_prev[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Din_FIFO" type="array">
+      <obj_property name="ElementShortName">Din_FIFO[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Din_FIFO[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Dout_FIFO" type="array">
+      <obj_property name="ElementShortName">Dout_FIFO[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout_FIFO[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/ACTIVATE_FIFO" type="logic">
+      <obj_property name="ElementShortName">ACTIVATE_FIFO</obj_property>
+      <obj_property name="ObjectShortName">ACTIVATE_FIFO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA" type="other">
+      <obj_property name="ElementShortName">NA</obj_property>
+      <obj_property name="ObjectShortName">NA</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1001">
+      <obj_property name="label">NIST_FIFO_FILLING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_TIME_DIFF" type="array">
+      <obj_property name="ElementShortName">BYTE_TIME_DIFF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_TIME_DIFF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_NEURON_ADDR_BYTE_0" type="array">
+      <obj_property name="ElementShortName">BYTE_NEURON_ADDR_BYTE_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_NEURON_ADDR_BYTE_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_NEURON_ADDR_BYTE_1" type="array">
+      <obj_property name="ElementShortName">BYTE_NEURON_ADDR_BYTE_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_NEURON_ADDR_BYTE_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/READ_EN" type="logic">
+      <obj_property name="ElementShortName">READ_EN</obj_property>
+      <obj_property name="ObjectShortName">READ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/ACTIVATE_FIFO" type="logic">
+      <obj_property name="ElementShortName">ACTIVATE_FIFO</obj_property>
+      <obj_property name="ObjectShortName">ACTIVATE_FIFO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Din_FIFO" type="array">
+      <obj_property name="ElementShortName">Din_FIFO[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Din_FIFO[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/Dout_FIFO" type="array">
+      <obj_property name="ElementShortName">Dout_FIFO[23:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout_FIFO[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_wr_en" type="logic">
+      <obj_property name="ElementShortName">FIFO_wr_en</obj_property>
+      <obj_property name="ObjectShortName">FIFO_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/FIFO_rd_en" type="logic">
+      <obj_property name="ElementShortName">FIFO_rd_en</obj_property>
+      <obj_property name="ObjectShortName">FIFO_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/trig_triger" type="logic">
+      <obj_property name="ElementShortName">trig_triger</obj_property>
+      <obj_property name="ObjectShortName">trig_triger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/adrs_flag" type="logic">
+      <obj_property name="ElementShortName">adrs_flag</obj_property>
+      <obj_property name="ObjectShortName">adrs_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/START_TRIGER" type="logic">
+      <obj_property name="ElementShortName">START_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">START_TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/RESET_TRIGER" type="logic">
+      <obj_property name="ElementShortName">RESET_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">RESET_TRIGER</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider5106">
+      <obj_property name="label">FF_TX_SPIKE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vthr_in" type="array">
+      <obj_property name="ElementShortName">vthr_in[0:19][17:0]</obj_property>
+      <obj_property name="ObjectShortName">vthr_in[0:19][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vin" type="array">
+      <obj_property name="ElementShortName">PORT_vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Iin" type="array">
+      <obj_property name="ElementShortName">PORT_Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin" type="array">
+      <obj_property name="ElementShortName">vin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/Iin" type="array">
+      <obj_property name="ElementShortName">Iin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Iin[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/vin_2nd" type="array">
+      <obj_property name="ElementShortName">vin_2nd[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vin_2nd[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/triger" type="logic">
+      <obj_property name="ElementShortName">triger</obj_property>
+      <obj_property name="ObjectShortName">triger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/trig_fifo" type="logic">
+      <obj_property name="ElementShortName">trig_fifo</obj_property>
+      <obj_property name="ObjectShortName">trig_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/trig_triger" type="logic">
+      <obj_property name="ElementShortName">trig_triger</obj_property>
+      <obj_property name="ObjectShortName">trig_triger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_in" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_in</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_Spike_out" type="logic">
+      <obj_property name="ElementShortName">PORT_Spike_out</obj_property>
+      <obj_property name="ObjectShortName">PORT_Spike_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/NA_loader" type="other">
+      <obj_property name="ElementShortName">NA_loader</obj_property>
+      <obj_property name="ObjectShortName">NA_loader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/ACT_TRIGER" type="logic">
+      <obj_property name="ElementShortName">ACT_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">ACT_TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/RESET_TRIGER" type="logic">
+      <obj_property name="ElementShortName">RESET_TRIGER</obj_property>
+      <obj_property name="ObjectShortName">RESET_TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_vout" type="array">
+      <obj_property name="ElementShortName">PORT_vout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_vout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_dout" type="array">
+      <obj_property name="ElementShortName">fifo_v_dout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_dout[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_v_din" type="array">
+      <obj_property name="ElementShortName">fifo_v_din[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_v_din[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/spike_buffer" type="array">
+      <obj_property name="ElementShortName">spike_buffer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spike_buffer[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/en_SOUT_Tx_int_sync" type="array">
+      <obj_property name="ElementShortName">en_SOUT_Tx_int_sync[1:0]</obj_property>
+      <obj_property name="ObjectShortName">en_SOUT_Tx_int_sync[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/counter0" type="array">
+      <obj_property name="ElementShortName">counter0[14:0]</obj_property>
+      <obj_property name="ObjectShortName">counter0[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/sout" type="logic">
+      <obj_property name="ElementShortName">sout</obj_property>
+      <obj_property name="ObjectShortName">sout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/UART_TXD_W" type="array">
+      <obj_property name="ElementShortName">UART_TXD_W[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_W[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/send_data" type="array">
+      <obj_property name="ElementShortName">send_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">send_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/w_copied" type="array">
+      <obj_property name="ElementShortName">w_copied[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_copied[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/uart_txd_Sout_vec" type="array">
+      <obj_property name="ElementShortName">uart_txd_Sout_vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_Sout_vec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Spike_OUT" type="array">
+      <obj_property name="ElementShortName">fifo_Spike_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Spike_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Spike_IN" type="array">
+      <obj_property name="ElementShortName">fifo_Spike_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Spike_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/spike_index" type="other">
+      <obj_property name="ElementShortName">spike_index</obj_property>
+      <obj_property name="ObjectShortName">spike_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_wr_en_Spike" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en_Spike</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en_Spike</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Spike_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_Spike_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_Spike_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_rd_en_Spike" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en_Spike</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en_Spike</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Spike_OUT" type="array">
+      <obj_property name="ElementShortName">fifo_Spike_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_Spike_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/trigger_pulse" type="logic">
+      <obj_property name="ElementShortName">trigger_pulse</obj_property>
+      <obj_property name="ObjectShortName">trigger_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/trigger_counter" type="other">
+      <obj_property name="ElementShortName">trigger_counter</obj_property>
+      <obj_property name="ObjectShortName">trigger_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/trigger_count" type="other">
+      <obj_property name="ElementShortName">trigger_count</obj_property>
+      <obj_property name="ObjectShortName">trigger_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/trigger_active" type="logic">
+      <obj_property name="ElementShortName">trigger_active</obj_property>
+      <obj_property name="ObjectShortName">trigger_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/begin_trigger" type="logic">
+      <obj_property name="ElementShortName">begin_trigger</obj_property>
+      <obj_property name="ObjectShortName">begin_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/en_SOUT_Tx_int" type="logic">
+      <obj_property name="ElementShortName">en_SOUT_Tx_int</obj_property>
+      <obj_property name="ObjectShortName">en_SOUT_Tx_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/en_SOUT_Tx_falling_edge" type="logic">
+      <obj_property name="ElementShortName">en_SOUT_Tx_falling_edge</obj_property>
+      <obj_property name="ObjectShortName">en_SOUT_Tx_falling_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/uart_txd_ctrl_0/send_ready" type="logic">
+      <obj_property name="ElementShortName">send_ready</obj_property>
+      <obj_property name="ObjectShortName">send_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/uart_txd_ctrl_0/send_start" type="logic">
+      <obj_property name="ElementShortName">send_start</obj_property>
+      <obj_property name="ObjectShortName">send_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/TRIGER" type="logic">
+      <obj_property name="ElementShortName">TRIGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Spike_OUT_Tx_vec" type="array">
+      <obj_property name="ElementShortName">Spike_OUT_Tx_vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Spike_OUT_Tx_vec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/current_neuron_index_int" type="other">
+      <obj_property name="ElementShortName">current_neuron_index_int</obj_property>
+      <obj_property name="ObjectShortName">current_neuron_index_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/sout" type="logic">
+      <obj_property name="ElementShortName">sout</obj_property>
+      <obj_property name="ObjectShortName">sout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_SOUT_Tx/uart_txd_ctrl_0/send_data" type="array">
+      <obj_property name="ElementShortName">send_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">send_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/N_debug_int" type="other">
+      <obj_property name="ElementShortName">N_debug_int</obj_property>
+      <obj_property name="ObjectShortName">N_debug_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_wr_en_Spike" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en_Spike</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en_Spike</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/uart_txd_VI" type="logic">
+      <obj_property name="ElementShortName">uart_txd_VI</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_VI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/uart_txd_Sout" type="logic">
+      <obj_property name="ElementShortName">uart_txd_Sout</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_Sout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/uart_txd_weight" type="logic">
+      <obj_property name="ElementShortName">uart_txd_weight</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_weight</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_DEBUG" type="logic">
+      <obj_property name="ElementShortName">flag_DEBUG</obj_property>
+      <obj_property name="ObjectShortName">flag_DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/read_AA_weight" type="logic">
+      <obj_property name="ElementShortName">read_AA_weight</obj_property>
+      <obj_property name="ObjectShortName">read_AA_weight</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/fifo_Spike_full" type="logic">
+      <obj_property name="ElementShortName">fifo_Spike_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_Spike_full</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1418">
+      <obj_property name="label">STDP_FLAG_EN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/PORT_STDP_Data_flag" type="array">
+      <obj_property name="ElementShortName">PORT_STDP_Data_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PORT_STDP_Data_flag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/En_STDP_Data_Flag" type="logic">
+      <obj_property name="ElementShortName">En_STDP_Data_Flag</obj_property>
+      <obj_property name="ObjectShortName">En_STDP_Data_Flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_ram_AA/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_ram_AA/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_STDP_IN" type="array">
+      <obj_property name="ElementShortName">fifo_STDP_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_STDP_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_wr_en_STDP" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en_STDP</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en_STDP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_rd_en_STDP" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en_STDP</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en_STDP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_STDP_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_STDP_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_STDP_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/CTR_STDP_FLAG" type="other">
+      <obj_property name="ElementShortName">CTR_STDP_FLAG</obj_property>
+      <obj_property name="ObjectShortName">CTR_STDP_FLAG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/CTR_STDP_FLAG_MAX" type="other">
+      <obj_property name="ElementShortName">CTR_STDP_FLAG_MAX</obj_property>
+      <obj_property name="ObjectShortName">CTR_STDP_FLAG_MAX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/flag_STDP_EN" type="logic">
+      <obj_property name="ElementShortName">flag_STDP_EN</obj_property>
+      <obj_property name="ObjectShortName">flag_STDP_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/BYTE_STDP_EN" type="array">
+      <obj_property name="ElementShortName">BYTE_STDP_EN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_STDP_EN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_STDP_OUT" type="array">
+      <obj_property name="ElementShortName">fifo_STDP_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_STDP_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/adrs_flag" type="logic">
+      <obj_property name="ElementShortName">adrs_flag</obj_property>
+      <obj_property name="ObjectShortName">adrs_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/sorter_state" type="array">
+      <obj_property name="ElementShortName">sorter_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sorter_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/loader_status" type="other">
+      <obj_property name="ElementShortName">loader_status</obj_property>
+      <obj_property name="ObjectShortName">loader_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/send_start_marker" type="logic">
+      <obj_property name="ElementShortName">send_start_marker</obj_property>
+      <obj_property name="ObjectShortName">send_start_marker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/trigger_active" type="logic">
+      <obj_property name="ElementShortName">trigger_active</obj_property>
+      <obj_property name="ObjectShortName">trigger_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_ram_FF/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_enable_ram_FF/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/trigger_counter" type="other">
+      <obj_property name="ElementShortName">trigger_counter</obj_property>
+      <obj_property name="ObjectShortName">trigger_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/trigger_count" type="other">
+      <obj_property name="ElementShortName">trigger_count</obj_property>
+      <obj_property name="ObjectShortName">trigger_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/W_EN_STDP_FLAG" type="logic">
+      <obj_property name="ElementShortName">W_EN_STDP_FLAG</obj_property>
+      <obj_property name="ObjectShortName">W_EN_STDP_FLAG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/Inst_UART_RX_SORTER_INPUT/fifo_rd_en_STDP" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en_STDP</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en_STDP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/stdp_params" type="array">
+      <obj_property name="ElementShortName">stdp_params[0:19][17:0]</obj_property>
+      <obj_property name="ObjectShortName">stdp_params[0:19][17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/param_phase" type="other">
+      <obj_property name="ElementShortName">param_phase</obj_property>
+      <obj_property name="ObjectShortName">param_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpre_rule" type="array">
+      <obj_property name="ElementShortName">tpre_rule[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpre_rule[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/tpost_rule" type="array">
+      <obj_property name="ElementShortName">tpost_rule[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpost_rule[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider68">
+      <obj_property name="label">LAT_ACC_BELOW</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_multiple_spike_counter" type="logic">
+      <obj_property name="ElementShortName">flag_multiple_spike_counter</obj_property>
+      <obj_property name="ObjectShortName">flag_multiple_spike_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/flag_trig_counter" type="logic">
+      <obj_property name="ElementShortName">flag_trig_counter</obj_property>
+      <obj_property name="ObjectShortName">flag_trig_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_acc_index" type="other">
+      <obj_property name="ElementShortName">lat_acc_index</obj_property>
+      <obj_property name="ObjectShortName">lat_acc_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_accumulation_done" type="logic">
+      <obj_property name="ElementShortName">lat_accumulation_done</obj_property>
+      <obj_property name="ObjectShortName">lat_accumulation_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_bram_addr" type="array">
+      <obj_property name="ElementShortName">lat_bram_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_bram_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_bram_data" type="array">
+      <obj_property name="ElementShortName">lat_bram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_bram_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/lat_bram_addr_read_W" type="array">
+      <obj_property name="ElementShortName">lat_bram_addr_read_W[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lat_bram_addr_read_W[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight" type="array">
+      <obj_property name="ElementShortName">weight[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/Core_0/weight_prev" type="array">
+      <obj_property name="ElementShortName">weight_prev[0:19][14:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_prev[0:19][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/MAIN_0/LIF_unit_0/sout" type="logic">
+      <obj_property name="ElementShortName">sout</obj_property>
+      <obj_property name="ObjectShortName">sout</obj_property>
+   </wvobject>
+</wave_config>

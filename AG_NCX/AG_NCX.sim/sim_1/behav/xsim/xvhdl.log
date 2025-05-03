@@ -1,0 +1,108 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_prim_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_compare'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_compare_0'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_compare_1'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_compare_2'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_rd_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_reset_blk_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_wr_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_prim_width'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_rd_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_wr_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_generic_cstr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_rd_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_wr_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_v8_4_6_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_blk_mem_gen_v8_4_6'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_memory'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_fifo_generator_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_fifo_generator_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_fifo_generator_v13_2_8_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2_fifo_generator_v13_2_8'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_prim_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_compare'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_compare_0'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_compare_1'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_compare_2'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_compare_3'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rd_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rd_fwft'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_reset_blk_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_wr_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_prim_width'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rd_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_wr_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_generic_cstr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_rd_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_wr_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_v8_4_6_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_blk_mem_gen_v8_4_6'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_memory'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_fifo_generator_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_fifo_generator_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_fifo_generator_v13_2_8_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0_fifo_generator_v13_2_8'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_prim_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_compare'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_compare_0'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_compare_1'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_compare_2'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_rd_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_reset_blk_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_wr_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_prim_width'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_rd_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_wr_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_generic_cstr'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_rd_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_wr_logic'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_v8_4_6_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_blk_mem_gen_v8_4_6'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_memory'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_fifo_generator_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_fifo_generator_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_fifo_generator_v13_2_8_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1_fifo_generator_v13_2_8'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NEUROCORE_ENGINE'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LIF_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_LIF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'triger_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'triger_generator_uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/UART_TX_GPIO_SRC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX_CTRL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Weight_Tx_AA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/apre_matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'apre_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Clock_Divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_domain_interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_domain_interface'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'stdp_enable_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/tpre_matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tpre_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX_CTRL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX_SORTER_Input'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'weight_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'weight_ram_FF'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sim_1/new/main_TOP_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'

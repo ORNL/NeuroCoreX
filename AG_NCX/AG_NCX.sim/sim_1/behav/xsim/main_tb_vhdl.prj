@@ -1,0 +1,25 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2_sim_netlist.vhdl" \
+"../../../../AG_NCX.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.vhdl" \
+"../../../../AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.vhdl" \
+"../../../../AG_NCX.srcs/sources_1/new/Core_engine.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/LIF_unit.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/Trig_LIF.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/UART_TX_GPIO_SRC.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/apre_matrix.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/clock_divider.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/clock_domain_interface.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/main_TOP.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/tpre_matrix.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/weight_matrix.vhd" \
+"../../../../AG_NCX.srcs/sources_1/new/weight_matrix_FF.vhd" \
+"../../../../AG_NCX.srcs/sim_1/new/main_TOP_tb.vhd" \
+
+# Do not sort compile order
+nosort

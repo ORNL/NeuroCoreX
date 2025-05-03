@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.vhdl" \
+
+# Do not sort compile order
+nosort

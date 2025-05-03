@@ -1,0 +1,832 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri May  2 19:19:33 2025
+# Process ID: 20312
+# Current directory: C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/main.vds
+# Journal file: C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1\vivado.jou
+# Running On: easternbrown, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 33982 MB
+#-----------------------------------------------------------
+source main.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 491.023 ; gain = 196.094
+Command: read_checkpoint -auto_incremental -incremental C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/utils_1/imports/synth_1/main.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/utils_1/imports/synth_1/main.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28228
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1319.797 ; gain = 413.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:22]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'inst_clk' of component 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'LIF_unit' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:17' bound to instance 'LIF_unit_0' of component 'LIF_unit' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'LIF_unit' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:55]
+INFO: [Synth 8-3491] module 'NEUROCORE_ENGINE' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:10' bound to instance 'Core_0' of component 'NEUROCORE_ENGINE' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:206]
+INFO: [Synth 8-638] synthesizing module 'NEUROCORE_ENGINE' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:51]
+INFO: [Synth 8-3491] module 'weight_ram_FF' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix_FF.vhd:5' bound to instance 'FF_weight_ram' of component 'weight_ram_FF' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:289]
+INFO: [Synth 8-638] synthesizing module 'weight_ram_FF' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix_FF.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'weight_ram_FF' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix_FF.vhd:18]
+INFO: [Synth 8-3491] module 'weight_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix.vhd:5' bound to instance 'AA_weight_ram' of component 'weight_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'weight_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'weight_ram' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/weight_matrix.vhd:18]
+INFO: [Synth 8-3491] module 'tpre_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/tpre_matrix.vhd:5' bound to instance 'tpre_ram_AA' of component 'tpre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:312]
+INFO: [Synth 8-638] synthesizing module 'tpre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/tpre_matrix.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'tpre_ram' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/tpre_matrix.vhd:16]
+INFO: [Synth 8-3491] module 'apre_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/apre_matrix.vhd:5' bound to instance 'apre_ram_AA' of component 'apre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:322]
+INFO: [Synth 8-638] synthesizing module 'apre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/apre_matrix.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'apre_ram' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/apre_matrix.vhd:16]
+INFO: [Synth 8-3491] module 'tpre_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/tpre_matrix.vhd:5' bound to instance 'tpre_ram_FF' of component 'tpre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:332]
+INFO: [Synth 8-3491] module 'apre_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/apre_matrix.vhd:5' bound to instance 'apre_ram_FF' of component 'apre_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:342]
+INFO: [Synth 8-3491] module 'stdp_enable_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:5' bound to instance 'stdp_enable_ram_AA' of component 'stdp_enable_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:351]
+INFO: [Synth 8-638] synthesizing module 'stdp_enable_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'stdp_enable_ram' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:16]
+INFO: [Synth 8-3491] module 'stdp_enable_ram' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/stdp_enable_matrix.vhd:5' bound to instance 'stdp_enable_ram_FF' of component 'stdp_enable_ram' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:361]
+INFO: [Synth 8-256] done synthesizing module 'NEUROCORE_ENGINE' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:51]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_v' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:452]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:465]
+INFO: [Synth 8-3491] module 'fifo_generator_1' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_1_stub.vhdl:6' bound to instance 'fifo_Isyn_FF' of component 'fifo_generator_1' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:478]
+INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:492]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'LIF_unit' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:55]
+INFO: [Synth 8-3491] module 'triger_generator_uart' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd:5' bound to instance 'triger_generator_0' of component 'triger_generator_uart' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'triger_generator_uart' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'triger_generator_uart' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_gen_uart.vhd:13]
+INFO: [Synth 8-3491] module 'clock_domain_interface' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_domain_interface.vhd:6' bound to instance 'clock_domain_interface_0' of component 'clock_domain_interface' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:269]
+INFO: [Synth 8-638] synthesizing module 'clock_domain_interface' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_domain_interface.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'clock_domain_interface' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_domain_interface.vhd:15]
+INFO: [Synth 8-3491] module 'triger_generator' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_LIF.vhd:5' bound to instance 'Trig_0' of component 'triger_generator' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:276]
+INFO: [Synth 8-638] synthesizing module 'triger_generator' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_LIF.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'triger_generator' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Trig_LIF.vhd:14]
+INFO: [Synth 8-3491] module 'UART_RX_CTRL' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd:24' bound to instance 'Inst_UART_RX_CTRL' of component 'UART_RX_CTRL' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:293]
+INFO: [Synth 8-638] synthesizing module 'UART_RX_CTRL' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'UART_RX_CTRL' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_ctrl.vhd:32]
+INFO: [Synth 8-3491] module 'UART_RX_SORTER_Input' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:35' bound to instance 'Inst_UART_RX_SORTER_INPUT' of component 'UART_RX_SORTER_Input' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:300]
+INFO: [Synth 8-638] synthesizing module 'UART_RX_SORTER_Input' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:63]
+INFO: [Synth 8-3491] module 'fifo_generator_0' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_0_stub.vhdl:6' bound to instance 'Inst_FIFO_PC_FPGA' of component 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:534]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'fifo_generator_2' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/.Xil/Vivado-20312-easternbrown/realtime/fifo_generator_2_stub.vhdl:6' bound to instance 'fifo_Spike_Tx' of component 'fifo_generator_2' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:548]
+INFO: [Synth 8-256] done synthesizing module 'UART_RX_SORTER_Input' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:63]
+INFO: [Synth 8-3491] module 'Clock_Divider' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:6' bound to instance 'Inst_Clk_div' of component 'Clock_Divider' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:327]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:14]
+INFO: [Synth 8-3491] module 'IBUFG' declared at 'C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:72252' bound to instance 'BUFG_inst' of component 'IBUFG' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:39]
+INFO: [Synth 8-6157] synthesizing module 'IBUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:72252]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFG' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:72252]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/clock_divider.vhd:14]
+INFO: [Synth 8-3491] module 'Weight_Tx_AA' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd:27' bound to instance 'Inst_Weight_Tx' of component 'Weight_Tx_AA' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:334]
+INFO: [Synth 8-638] synthesizing module 'Weight_Tx_AA' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd:36]
+INFO: [Synth 8-3491] module 'UART_TX_CTRL' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/UART_TX_GPIO_SRC.vhd:42' bound to instance 'uart_txd_ctrl_0' of component 'UART_TX_CTRL' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'UART_TX_CTRL' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/UART_TX_GPIO_SRC.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'UART_TX_CTRL' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/UART_TX_GPIO_SRC.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'Weight_Tx_AA' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd:36]
+INFO: [Synth 8-3491] module 'Weight_Tx_AA' declared at 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Weight_Tx_AA.vhd:27' bound to instance 'Inst_SOUT_Tx' of component 'Weight_Tx_AA' [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:343]
+INFO: [Synth 8-256] done synthesizing module 'main' (0#1) [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/main_TOP.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[0] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[1] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[2] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[3] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[4] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[5] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[6] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[7] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[9] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[10] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[11] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[12] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[13] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[14] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[15] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[16] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[17] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[18] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[19] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[20] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[21] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[22] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[23] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[24] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[25] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[26] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[27] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[28] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[29] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[30] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[31] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[32] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[33] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[34] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[35] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[36] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[37] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[38] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[39] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[40] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[41] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[42] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[43] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[44] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[45] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[46] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[47] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[48] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[49] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[50] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[51] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[52] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[53] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[54] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[55] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[56] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[57] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[58] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[59] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[60] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[61] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[62] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[63] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[64] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[65] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[66] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[67] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[68] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[69] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[70] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[71] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[72] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[73] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[74] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[75] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[76] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[77] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[78] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[79] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[80] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[81] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[82] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[83] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[84] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[85] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[86] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[87] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[88] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[89] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[90] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[91] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[92] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[93] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[94] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element tau_mem_reg[95] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element stdp_params_reg[3] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element stdp_params_reg[4] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element stdp_params_reg[5] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element stdp_params_reg[6] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element stdp_params_reg[7] was removed.  [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3848] Net FLAG_OVERFLOW in module/entity UART_RX_SORTER_Input does not have driver. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:47]
+WARNING: [Synth 8-3848] Net FLAG_UNDERFLOW in module/entity UART_RX_SORTER_Input does not have driver. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/uart_rx_sorter_input.vhd:48]
+WARNING: [Synth 8-7129] Port FLAG_OVERFLOW in module UART_RX_SORTER_Input is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FLAG_UNDERFLOW in module UART_RX_SORTER_Input is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[15] in module stdp_enable_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[14] in module stdp_enable_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[15] in module stdp_enable_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[14] in module stdp_enable_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[15] in module apre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[14] in module apre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[15] in module apre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[14] in module apre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[15] in module tpre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[14] in module tpre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[15] in module tpre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[14] in module tpre_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[15] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[14] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[15] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[14] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr_STDP[15] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr_STDP[14] in module weight_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[15] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write_addr[14] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[15] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr[14] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr_STDP[15] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_addr_STDP[14] in module weight_ram_FF is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[17] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[16] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[15] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[14] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[13] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[12] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[11] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[10] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[9] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[8] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[7] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[6] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[5] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[4] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[3] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[2] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[1] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PORT_Isyn_in_FF[0] in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port En_READ_AA_W in module NEUROCORE_ENGINE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RESET_TRIGER in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[17] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[16] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[15] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[14] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[13] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[12] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[11] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[10] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[9] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[8] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[7] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[6] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[5] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[4] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[3] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[2] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[1] in module LIF_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RXD_I[0] in module LIF_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.199 ; gain = 700.742
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.283 . Memory (MB): peak = 1607.199 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+WARNING: [Netlist 29-432] The IBUFG primitive 'Inst_Clk_div/BUFG_inst' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'Inst_UART_RX_SORTER_INPUT/Inst_FIFO_PC_FPGA'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'Inst_UART_RX_SORTER_INPUT/Inst_FIFO_PC_FPGA'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_v'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_v'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_Isyn'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_Isyn'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_Isyn_FF'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'LIF_unit_0/fifo_Isyn_FF'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst_clk'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst_clk'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'LIF_unit_0/fifo_Spike_Tx'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'LIF_unit_0/fifo_Spike_Tx'
+Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx'
+Finished Parsing XDC File [c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx'
+Parsing XDC File [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/constrs_1/new/CMod_A7_master.xdc]
+Finished Parsing XDC File [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/constrs_1/new/CMod_A7_master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/constrs_1/new/CMod_A7_master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFG => IBUF: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for Inst_UART_RX_SORTER_INPUT/Inst_FIFO_PC_FPGA. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for LIF_unit_0/fifo_Isyn. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for LIF_unit_0/fifo_Isyn_FF. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for LIF_unit_0/fifo_v. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst_clk. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for LIF_unit_0/fifo_Spike_Tx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Inst_UART_RX_SORTER_INPUT/fifo_Spike_Tx. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_params_reg[2]' and it is trimmed from '18' to '16' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_params_reg[1]' and it is trimmed from '18' to '16' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_params_reg[0]' and it is trimmed from '18' to '8' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:280]
+INFO: [Synth 8-802] inferred FSM for state register 'read_state_reg' in module 'NEUROCORE_ENGINE'
+WARNING: [Synth 8-3936] Found unconnected internal register 'DEBUG_PARAMS_reg[1]' and it is trimmed from '18' to '7' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/LIF_unit.vhd:394]
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'LIF_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'RX_STATE_reg' in module 'UART_RX_CTRL'
+INFO: [Synth 8-802] inferred FSM for state register 'patternState_THR_reg' in module 'UART_RX_SORTER_Input'
+INFO: [Synth 8-802] inferred FSM for state register 'patternState_reg' in module 'UART_RX_SORTER_Input'
+INFO: [Synth 8-802] inferred FSM for state register 'patternState_DEBUG_reg' in module 'UART_RX_SORTER_Input'
+INFO: [Synth 8-802] inferred FSM for state register 'txState_reg' in module 'UART_TX_CTRL'
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'Weight_Tx_AA'
+INFO: [Synth 8-3971] The signal "weight_ram_FF:/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "weight_ram:/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            wait_trigger |                              001 |                               00
+               wait_adrs |                              010 |                               01
+               wait_data |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'read_state_reg' using encoding 'one-hot' in module 'NEUROCORE_ENGINE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     set |                              000 |                              010
+                   ready |                              001 |                              011
+                     run |                              010 |                              100
+            sync_reset_a |                              011 |                              000
+            sync_reset_b |                              100 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'LIF_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                              000 |                              000
+                   delay |                              001 |                              001
+                 get_bit |                              010 |                              010
+                read_bit |                              011 |                              011
+                stop_bit |                              100 |                              100
+                clean_up |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'RX_STATE_reg' using encoding 'sequential' in module 'UART_RX_CTRL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+         thr_value_byte1 |                              001 |                               00
+         thr_value_byte2 |                              010 |                               01
+         thr_value_byte3 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'patternState_THR_reg' using encoding 'one-hot' in module 'UART_RX_SORTER_Input'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           bit_time_diff |                              001 |                               00
+       bit_address_byte1 |                              010 |                               01
+       bit_address_byte2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'patternState_reg' using encoding 'one-hot' in module 'UART_RX_SORTER_Input'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+       debug_value_byte1 |                              001 |                               00
+       debug_value_byte2 |                              010 |                               01
+       debug_value_byte3 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'patternState_DEBUG_reg' using encoding 'one-hot' in module 'UART_RX_SORTER_Input'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     rdy |                               00 |                               00
+                load_bit |                               01 |                               01
+                send_bit |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'txState_reg' using encoding 'sequential' in module 'UART_TX_CTRL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 standby |                                0 |                             0000
+                    end0 |                                1 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'Weight_Tx_AA'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   31 Bit       Adders := 1     
+	   3 Input   24 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 3     
+	   5 Input   18 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 6     
+	   2 Input   15 Bit       Adders := 4     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 6     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 107   
+	   3 Input    8 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 32    
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 3     
++---Registers : 
+	               96 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	               31 Bit    Registers := 3     
+	               24 Bit    Registers := 3     
+	               18 Bit    Registers := 118   
+	               16 Bit    Registers := 20    
+	               15 Bit    Registers := 387   
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 315   
+	                7 Bit    Registers := 30    
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 110   
++---RAMs : 
+	              72K Bit	(9216 X 8 bit)          RAMs := 4     
+	              18K Bit	(9216 X 2 bit)          RAMs := 2     
+	               9K Bit	(9216 X 1 bit)          RAMs := 2     
+	               1K Bit	(96 X 18 bit)          RAMs := 1     
++---Muxes : 
+	   4 Input   96 Bit        Muxes := 1     
+	   2 Input   96 Bit        Muxes := 6     
+	   2 Input   32 Bit        Muxes := 1     
+	   6 Input   31 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 2     
+	   2 Input   18 Bit        Muxes := 16    
+	   5 Input   18 Bit        Muxes := 5     
+	   3 Input   18 Bit        Muxes := 2     
+	   8 Input   18 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 31    
+	   3 Input   16 Bit        Muxes := 4     
+	   8 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 103   
+	   5 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 5     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 24    
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 33    
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 5     
+	   3 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	   4 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 1145  
+	   5 Input    1 Bit        Muxes := 110   
+	   6 Input    1 Bit        Muxes := 5     
+	   3 Input    1 Bit        Muxes := 123   
+	   8 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'lat_bram_addr_reg' and it is trimmed from '16' to '14' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:307]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tpre_write_addr_FF_reg' and it is trimmed from '16' to '14' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:336]
+WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_enable_write_addr_FF_reg' and it is trimmed from '16' to '14' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:365]
+WARNING: [Synth 8-3936] Found unconnected internal register 'stdp_enable_write_addr_AA_reg' and it is trimmed from '16' to '14' bits. [C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.srcs/sources_1/new/Core_engine.vhd:355]
+DSP Report: Generating DSP tpre_read_addr_FF1, operation Mode is: A2*(B:0x60).
+DSP Report: register tpre_update_index_FF_reg is absorbed into DSP tpre_read_addr_FF1.
+DSP Report: operator tpre_read_addr_FF1 is absorbed into DSP tpre_read_addr_FF1.
+DSP Report: Generating DSP FF_read_addr1, operation Mode is: (0 or C)+(A*(B:0x60) or 0).
+DSP Report: operator FF_read_addr1 is absorbed into DSP FF_read_addr1.
+DSP Report: Generating DSP apre_read_addr0, operation Mode is: C'+A*(B:0x60).
+DSP Report: register lat_update_index_reg is absorbed into DSP apre_read_addr0.
+DSP Report: operator apre_read_addr0 is absorbed into DSP apre_read_addr0.
+DSP Report: operator apre_read_addr1 is absorbed into DSP apre_read_addr0.
+DSP Report: Generating DSP tpre_read_addr0, operation Mode is: C'+A*(B:0x60).
+DSP Report: register tpre_update_index_reg is absorbed into DSP tpre_read_addr0.
+DSP Report: operator tpre_read_addr0 is absorbed into DSP tpre_read_addr0.
+DSP Report: operator apre_read_addr1 is absorbed into DSP tpre_read_addr0.
+DSP Report: Generating DSP FF_read_addr0, operation Mode is: C'+A*(B:0x60).
+DSP Report: register FF_update_index_reg is absorbed into DSP FF_read_addr0.
+DSP Report: operator FF_read_addr0 is absorbed into DSP FF_read_addr0.
+DSP Report: operator FF_read_addr1 is absorbed into DSP FF_read_addr0.
+DSP Report: Generating DSP weight_AA_write_addr1, operation Mode is: (D'+(A:0x1))*(B:0x60).
+DSP Report: register current_neuron_index_int_reg is absorbed into DSP weight_AA_write_addr1.
+DSP Report: operator weight_AA_write_addr1 is absorbed into DSP weight_AA_write_addr1.
+DSP Report: operator weight_AA_write_addr2 is absorbed into DSP weight_AA_write_addr1.
+DSP Report: Generating DSP lat_read_addr0, operation Mode is: C+(D'+(A:0x1))*(B:0x60).
+DSP Report: register current_neuron_index_int_reg is absorbed into DSP lat_read_addr0.
+DSP Report: operator lat_read_addr0 is absorbed into DSP lat_read_addr0.
+DSP Report: operator weight_AA_write_addr1 is absorbed into DSP lat_read_addr0.
+DSP Report: operator weight_AA_write_addr2 is absorbed into DSP lat_read_addr0.
+DSP Report: Generating DSP mul_result_FF, operation Mode is: A*B2.
+DSP Report: register w_comb_FF_reg is absorbed into DSP mul_result_FF.
+DSP Report: operator mul_result_FF is absorbed into DSP mul_result_FF.
+INFO: [Synth 8-3971] The signal "main/FF_weight_ram/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "main/AA_weight_ram/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-5784] Optimized 1 bits of RAM "apre_ram_AA/ram_reg" due to constant propagation. Old ram width 2 bits, new ram width 1 bits.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|main        | tpre_ram_AA/ram_reg        | 9 K x 8(READ_FIRST)    | W |   | 9 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 4      | 
+|main        | apre_ram_AA/ram_reg        | 9 K x 2(READ_FIRST)    | W |   | 9 K x 2(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|main        | tpre_ram_FF/ram_reg        | 9 K x 8(READ_FIRST)    | W |   | 9 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 4      | 
+|main        | apre_ram_FF/ram_reg        | 9 K x 2(READ_FIRST)    | W |   | 9 K x 2(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|main        | stdp_enable_ram_AA/ram_reg | 9 K x 1(READ_FIRST)    | W |   | 9 K x 1(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|main        | stdp_enable_ram_FF/ram_reg | 9 K x 1(READ_FIRST)    | W |   | 9 K x 1(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+---------------+-----------+----------------------+------------------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives                   | 
++------------+---------------+-----------+----------------------+------------------------------+
+|main        | vthr_in_reg   | Implied   | 128 x 18             | RAM64M x 12                  | 
+|main        | T_ref_ctr_reg | Implied   | 128 x 18             | RAM32X1S x 18 RAM64X1S x 18  | 
++------------+---------------+-----------+----------------------+------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping                | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|NEUROCORE_ENGINE | A2*(B:0x60)                | 7      | 7      | -      | -      | 14     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | (0 or C)+(A*(B:0x60) or 0) | 16     | 8      | 15     | -      | 24     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*(B:0x60)              | 16     | 8      | 7      | -      | 16     | 0    | 0    | 1    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*(B:0x60)              | 16     | 8      | 7      | -      | 16     | 0    | 0    | 1    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*(B:0x60)              | 16     | 8      | 7      | -      | 16     | 0    | 0    | 1    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | (D'+(A:0x1))*(B:0x60)      | 2      | 8      | -      | 16     | 24     | 0    | 0    | -    | 1    | 0     | 0    | 0    | 
+|NEUROCORE_ENGINE | C+(D'+(A:0x1))*(B:0x60)    | 2      | 8      | 7      | 16     | 16     | 0    | 0    | 0    | 1    | 0     | 0    | 0    | 
+|NEUROCORE_ENGINE | A*B2                       | 21     | 15     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 0    | 0    | 
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.180 ; gain = 801.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:38 ; elapsed = 00:01:42 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|main        | tpre_ram_AA/ram_reg        | 9 K x 8(READ_FIRST)    | W |   | 9 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 4      | 
+|main        | apre_ram_AA/ram_reg        | 9 K x 2(READ_FIRST)    | W |   | 9 K x 2(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|main        | tpre_ram_FF/ram_reg        | 9 K x 8(READ_FIRST)    | W |   | 9 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 0      | 4      | 
+|main        | apre_ram_FF/ram_reg        | 9 K x 2(READ_FIRST)    | W |   | 9 K x 2(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|main        | stdp_enable_ram_AA/ram_reg | 9 K x 1(READ_FIRST)    | W |   | 9 K x 1(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|main        | stdp_enable_ram_FF/ram_reg | 9 K x 1(READ_FIRST)    | W |   | 9 K x 1(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++------------+---------------+-----------+----------------------+------------------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives                   | 
++------------+---------------+-----------+----------------------+------------------------------+
+|main        | vthr_in_reg   | Implied   | 128 x 18             | RAM64M x 12                  | 
+|main        | T_ref_ctr_reg | Implied   | 128 x 18             | RAM32X1S x 18 RAM64X1S x 18  | 
++------------+---------------+-----------+----------------------+------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/FF_weight_ram/ram_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/AA_weight_ram/ram_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_AA/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_AA/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_AA/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_AA/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/apre_ram_AA/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_FF/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_FF/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_FF/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/tpre_ram_FF/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/apre_ram_FF/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/stdp_enable_ram_AA/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance LIF_unit_0/Core_0/stdp_enable_ram_FF/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|main        | LIF_unit_0/Core_0/Sin_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|NEUROCORE_ENGINE | A'*B        | 7      | 7      | -      | -      | 14     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*B      | 30     | 7      | 7      | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*B      | 30     | 7      | 7      | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | C'+A*B      | 30     | 7      | 7      | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | D'+A*B      | 1      | 7      | -      | 25     | 24     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|NEUROCORE_ENGINE | C+D'+A*B    | 1      | 7      | 7      | 25     | 16     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|NEUROCORE_ENGINE | A*B'        | 8      | 18     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|NEUROCORE_ENGINE | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 0    | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |clk_wiz_0        |         1|
+|2     |fifo_generator_0 |         1|
+|3     |fifo_generator_2 |         2|
+|4     |fifo_generator_1 |         3|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |clk_wiz_0_bbox        |     1|
+|2     |fifo_generator_0_bbox |     1|
+|3     |fifo_generator_1_bbox |     3|
+|6     |fifo_generator_2_bbox |     2|
+|8     |CARRY4                |   293|
+|9     |DSP48E1               |     8|
+|15    |LUT1                  |   176|
+|16    |LUT2                  |  2340|
+|17    |LUT3                  |   587|
+|18    |LUT4                  |   620|
+|19    |LUT5                  |   603|
+|20    |LUT6                  |  4002|
+|21    |MUXF7                 |  1076|
+|22    |MUXF8                 |   266|
+|23    |RAM32X1S              |    18|
+|24    |RAM64M                |    12|
+|25    |RAM64X1S              |    18|
+|26    |RAMB18E1              |     3|
+|27    |RAMB36E1              |    25|
+|31    |SRL16E                |     1|
+|32    |FDRE                  |  8606|
+|33    |FDSE                  |  2237|
+|34    |IBUF                  |     1|
+|35    |IBUFG                 |     1|
+|36    |OBUF                  |     1|
++------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:56 ; elapsed = 00:02:01 . Memory (MB): peak = 1823.219 ; gain = 916.762
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:41 ; elapsed = 00:01:56 . Memory (MB): peak = 1823.219 ; gain = 815.781
+Synthesis Optimization Complete : Time (s): cpu = 00:01:57 ; elapsed = 00:02:02 . Memory (MB): peak = 1823.219 ; gain = 916.762
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.246 . Memory (MB): peak = 1823.219 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1720 Unisim elements for replacement
+WARNING: [Netlist 29-432] The IBUFG primitive 'Inst_Clk_div/BUFG_inst' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'main' is not ideal for floorplanning, since the cellview 'NEUROCORE_ENGINE' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Inst_Clk_div/BUFG_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1823.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 48 instances were transformed.
+  RAM32X1S => RAM32X1S (RAMS32): 18 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 18 instances
+
+Synth Design complete | Checksum: 4080b6e0
+INFO: [Common 17-83] Releasing license: Synthesis
+138 Infos, 179 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:05 ; elapsed = 00:02:11 . Memory (MB): peak = 1823.219 ; gain = 1297.117
+INFO: [Common 17-1381] The checkpoint 'C:/Users/4v5/Documents/FPGA_Vivado_Restart/AG_NCX/AG_NCX.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  2 19:21:58 2025...
